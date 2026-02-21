@@ -1,44 +1,62 @@
-# Offroad Semantic Segmentation
+# Autonomous Offroad Perception Module (v1)
 
-Perception module for autonomous off-road navigation.
-
-This project implements a baseline semantic segmentation pipeline for terrain understanding using a synthetic off-road dataset.
+Core perception pipeline for autonomous drone navigation in unstructured off-road environments.
 
 ---
 
-## 📊 Results
+## 🧠 Overview
 
-- Baseline IoU: **0.29**
-- Custom training pipeline
-- PyTorch-based implementation
+This repository contains the first baseline implementation of a terrain semantic segmentation model for autonomous aerial systems.
 
----
-
-## 📂 Project Structure
-
-- `train_segmentation.py` – Model training script  
-- `test_segmentation.py` – Evaluation script  
-- `visualize.py` – Prediction visualization  
-- `ENV_SETUP/` – Environment setup scripts  
+The goal is to enable drones to understand:
+- Drivable terrain
+- Obstacles
+- Vegetation
+- Unstructured environments
 
 ---
 
-## 🧠 Objective
+## 📊 Baseline Performance
 
-To build a terrain perception module for autonomous drone navigation in off-road environments.
+- Model: Custom segmentation pipeline
+- Dataset: Synthetic off-road dataset
+- IoU Score: **0.29**
+- Status: Baseline prototype
 
 ---
 
-## 🚀 Future Improvements
+## 🏗 System Architecture
 
-- Data augmentation  
-- Dice / Focal loss  
-- Learning rate tuning  
-- Advanced architectures (UNet / DeepLabV3)  
-- Real-world dataset adaptation  
+Training → Evaluation → Visualization pipeline
+
+- `train_segmentation.py` — Model training
+- `test_segmentation.py` — Evaluation
+- `visualize.py` — Prediction rendering
+- `ENV_SETUP/` — Environment setup scripts
+
+---
+
+## 🚀 Roadmap
+
+### v2
+- Data augmentation
+- Dice / Focal loss
+- Learning rate scheduling
+- IoU target: 0.40+
+
+### v3
+- UNet / DeepLabV3
+- Real-world dataset adaptation
+- Domain generalization
 
 ---
 
 ## 🎯 Vision
 
-Part of a larger research effort toward autonomous aerial systems and intelligent drone navigation.
+This project is part of a larger initiative toward building fully autonomous drone systems capable of operating in GPS-denied and off-road environments.
+
+---
+
+## 📌 Status
+
+Active research & development.
