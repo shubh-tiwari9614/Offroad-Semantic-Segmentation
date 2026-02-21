@@ -1,4 +1,11 @@
 # Autonomous Offroad Perception Module (v1)
+---
+
+## 📷 Demo
+
+![Segmentation Output](demo_result.png)
+
+---
 
 Core perception pipeline for autonomous drone navigation in unstructured off-road environments.
 
@@ -60,3 +67,24 @@ This project is part of a larger initiative toward building fully autonomous dro
 ## 📌 Status
 
 Active research & development.
+---
+
+## ⚙️ Installation
+
+## ⚙ Installation
+
+## ⚙️ Installation
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/shubh-tiwari9614/Offroad-Semantic-Segmentation.git
+cd Offroad-Semantic-Segmentation
+pip install -r requirements.txt
+```
+
+
+Current IoU: 0.29  
+Target IoU: 0.40+
+Baseline qualitative results will be published after performance optimization (v2).
+
+This repository is under active research & development.
